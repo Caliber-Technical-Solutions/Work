@@ -1,8 +1,9 @@
 /* ID to add the image of wilkes-barre to our div */
 #wilkes-barre {
-    background-image: url("images/wilkesbarre.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: block;
+    position: relative;
+}
+#img-content {
+    position: absolute;
+    top: 10px; 
+    left: 20px;
 }
