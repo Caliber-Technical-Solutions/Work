@@ -1,4 +1,5 @@
+/* ID to add the image of wilkes-barre to our div */
 #wilkes-barre {
     background-image: url("images/wilkesbarre.png");
-    
+    width: 100%;
 }
