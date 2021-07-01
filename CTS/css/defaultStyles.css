@@ -1,6 +1,10 @@
 /* ID to add the image of wilkes-barre to our div */
 #wilkes-barre {
     position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    object-fit: scale-down;
 }
 #img-content {
     position: absolute;
