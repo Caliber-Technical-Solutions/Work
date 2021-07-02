@@ -4,7 +4,7 @@
     overflow: hidden;
     max-width: 100%;
     height: auto;
-    object-fit: scale-down;
+    object-fit: contain;
 }
 #img-content {
     position: absolute;
