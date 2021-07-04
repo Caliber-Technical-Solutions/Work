@@ -8,7 +8,7 @@ body {
 }
 
 .border-case {
-    border: 5px solid black; 
+    border: 5px solid black;
 }
 
 
@@ -50,19 +50,7 @@ body {
     grid-row: span 1;
 }
 
-.box-left {
-    text-align: center;
-    grid-column: span 2;
-    justify-content: center;
-}
-
-.box-middle {
-    text-align: center;
-    grid-column: span 2;
-    justify-content: center;
-}
-
-.box-right {
+.box {
     text-align: center;
     grid-column: span 2;
     justify-content: center;
@@ -72,6 +60,7 @@ body {
 .owner-container {
     position: relative;
     width: 50%;
+    margin: auto;
   }
 
 .owner-photo {
