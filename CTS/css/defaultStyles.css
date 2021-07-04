@@ -31,3 +31,10 @@ body {
     font-size: 17px;
 }
 
+/* CSS GRID STYLES */
+.box-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 150px;
+}
+
