@@ -18,13 +18,7 @@ body {
     left: 20px;
 }
 
-.title {
-    text-align: center;
-    padding-bottom: 10px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border-bottom: 10px solid #000;
-}
+
 
 .subtitle {
     padding-top: 0px;
@@ -34,7 +28,30 @@ body {
 /* CSS GRID STYLES */
 .box-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 150px;
+    grid-template: 100px / repeat(6, auto);
+    grid-gap: 10px;
 }
 
+.title {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 10px solid #000;
+    grid-column: 2 / 4;
+}
+
+.box-left {
+    text-align: center;
+    grid-column: 1 / 2;
+}
+
+.box-middle {
+    text-align: center;
+    grid-column: 3 / 4;
+}
+
+.box-right {
+    text-align: center;
+    grid-column: 5 / 6;
+}
