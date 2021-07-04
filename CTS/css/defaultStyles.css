@@ -9,7 +9,7 @@ body {
     grid-gap: 10px;
 }
 
-/* ID to add the image of wilkes-barre to our div */
+/* ID to style the image of wilkes-barre in our div */
 #wilkes-barre {
     position: relative;
     overflow: hidden;
