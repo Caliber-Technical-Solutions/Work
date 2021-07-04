@@ -2,6 +2,17 @@ body {
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
+.subtitle {
+    padding-top: 0px;
+    font-size: 17px;
+}
+
+.border-case {
+    border: 5px solid black; 
+}
+
+
+
 /* CSS GRID STYLES */
 .box-container {
     display: grid;
@@ -29,11 +40,6 @@ body {
     left: 20px;
 }
 
-.subtitle {
-    padding-top: 0px;
-    font-size: 17px;
-}
-
 .title {
     text-align: center;
     padding-bottom: 10px;
@@ -47,14 +53,56 @@ body {
 .box-left {
     text-align: center;
     grid-column: span 2;
+    justify-content: center;
 }
 
 .box-middle {
     text-align: center;
     grid-column: span 2;
+    justify-content: center;
 }
 
 .box-right {
     text-align: center;
     grid-column: span 2;
+    justify-content: center;
 }
+
+/* Who we are photo transformation */
+.owner-container {
+    position: relative;
+    width: 50%;
+  }
+
+.owner-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+  }
+
+  .owner-container:hover .overlay {
+    opacity: 1;
+  }
+
+ .owner-text {
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
