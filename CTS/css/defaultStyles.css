@@ -11,7 +11,13 @@ body {
     border: 5px solid black;
 }
 
-
+.circle-background {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #000;
+    margin: auto;
+}
 
 /* CSS GRID STYLES */
 .box-container {
