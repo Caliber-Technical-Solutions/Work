@@ -1,6 +1,14 @@
 body {
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
+p {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin: auto;
+    grid-column: 1/-1;
+    grid-row: auto;
+}
 .background-color {
     background-color: #8c9196;
 }
@@ -95,7 +103,7 @@ body {
     grid-row: auto;
 }
 
-
+/* Box wrap container */
 .box {
     text-align: center;
     grid-column: span 2;
@@ -141,11 +149,3 @@ body {
     -ms-transform: translate(-50%, -50%);
   }
 
-  p {
-      font-size: 20px;
-      text-align: center;
-      color: black;
-      margin: auto;
-      grid-column: 1/-1;
-      grid-row: auto;
-  }
