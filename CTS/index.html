@@ -9,6 +9,7 @@
     <body>
         <header>
             <!-- We can place the top nav bar here that will be external and common across all pages -->
+            <div id="navbar"></div>
         </header>
         <!-- main body -->
         <main>
@@ -128,6 +129,11 @@
         </main>
         <footer>
             <!-- Place our footer that will be external and common across all pages -->
+            <div id="footer"></div>
         </footer>
+        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script> 
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="navbar.html"></script>
     </body>
 </html>
