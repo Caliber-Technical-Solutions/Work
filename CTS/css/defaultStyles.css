@@ -1,7 +1,9 @@
 body {
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
-
+.background-color {
+    background-color: dimgrey;
+}
 /* subtitle styles */
 .subtitle {
     padding-top: 0px;
@@ -84,7 +86,7 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
     border-bottom: 10px solid #000;
-    width: 25%;
+    width: 24%;
     height: auto;
     position: relative;
     grid-column: 1/-1;
