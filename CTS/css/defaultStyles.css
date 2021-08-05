@@ -2,7 +2,7 @@ body {
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 .background-color {
-    background-color: dimgrey;
+    background-color: #8c9196;
 }
 /* subtitle styles */
 .subtitle {
@@ -13,6 +13,8 @@ body {
 /* black solid border */
 .border-case {
     border: 5px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* Black circle background */
