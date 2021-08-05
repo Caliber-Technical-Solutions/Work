@@ -2,15 +2,18 @@ body {
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
+/* subtitle styles */
 .subtitle {
     padding-top: 0px;
     font-size: 17px;
 }
 
+/* black solid border */
 .border-case {
     border: 5px solid black;
 }
 
+/* Black circle background */
 .circle-background {
     width: 200px;
     height: 200px;
@@ -20,6 +23,7 @@ body {
     position: relative;
 }
 
+/* Styles for Gifs */
 .gif {
     width: 150px;
     height: 150px;
@@ -60,6 +64,7 @@ body {
     left: 20px;
 }
 
+/* main title style */
 .title {
     text-align: center;
     padding-bottom: 10px;
@@ -69,6 +74,19 @@ body {
     grid-column: 1 / -1;
     grid-row: span 1;
 }
+
+/* title styles for sections of page */
+.section-title {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 10px solid #000;
+    width: 50%;
+    grid-column:  auto;
+    grid-row: auto;
+}
+
 
 .box {
     text-align: center;
