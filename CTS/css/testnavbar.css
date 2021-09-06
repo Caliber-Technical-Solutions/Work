@@ -1,43 +1,14 @@
 /*Trying the Navbar a different way with all the shit we want*/
 /*root references for later (rem)*/
-:root {
-    font-size: 16px;
-    font-family: 'Comic Sans';
-    --text-primary: #888888;
-    --text-secondary: #ececec;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
-}
 
-body {
-    color: black;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-}
-
-/*boo scrollbar boo, me edit*/
-body::-webkit-scrollbar {
-    width: 0.25rem;
-}
-
-body::-webkit-scrollbar-track {
-    background: #1e1e24;
-}
-
-body::-webkit-scrollbar-thumb {
-    background: #6649b8;
-}
 /*rem is a unit that is relative to the font size on the root element*/
-main {
-    margin-left: 5rem;
-    padding: 1rem;
-}
 
+/*vh is a relative unit to the view*/
 /*vh is a relative unit to the view*/
 .navbar {
     width: 5rem;
     height:100vh;
+    z-index: 1;
     position:fixed;
     background-color: var(--bg-primary);
     transition: 200ms ease;
@@ -48,7 +19,7 @@ main {
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column;
+    grid-template-columns: 1;
     align-items: center; 
 }
 
@@ -145,7 +116,7 @@ main {
     }
 
     .navbar-nav {
-        flex-direction: row;
+        grid-template-rows: auto;
     }
 
     .nav-link {
