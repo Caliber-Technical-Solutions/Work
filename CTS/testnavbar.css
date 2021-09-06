@@ -1,6 +1,6 @@
 /*Trying the Navbar a different way with all the shit we want*/
 /*root references for later (rem)*/
-;root {
+:root {
     font-size: 16px;
     font-family: 'Comic Sans';
     --text-primary: #888888;
