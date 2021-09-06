@@ -75,7 +75,7 @@ p {
 /* CSS GRID STYLES */
 .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: auto;
     grid-gap: 10px;
     grid-auto-flow: dense;
@@ -172,7 +172,7 @@ p {
     -ms-transform: translate(-50%, -50%);
   }
 
-  /*rem is a unit that is relative to the font size on the root element*/
+/*adjust main to place a side navbar on page*/
 main {
     margin-left: 5rem;
     padding: 1rem;
