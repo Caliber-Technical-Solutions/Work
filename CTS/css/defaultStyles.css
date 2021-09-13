@@ -21,7 +21,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #6649b8;
+    background: #4306eb;
 }
 
 p {
@@ -33,7 +33,7 @@ p {
     grid-row: auto;
 }
 .background-color {
-    background-color: #8c9196;
+    background-color: #d3e2f0;
 }
 /* subtitle styles */
 .subtitle {
